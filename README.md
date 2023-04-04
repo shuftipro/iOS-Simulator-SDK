@@ -4,12 +4,15 @@
 Please find the attached SDK for Simulator supported SDK and here are the installation instructions.
 
 Add below pods to your Podfile. </br>
-pod 'Socket.IO-Client-Swift' </br>
-pod 'lottie-ios' </br></br>
-Copy “ShuftiPro.framework” into your project folder. </br>
-In Xcode select your project -> your project under TARGETS -> General -> Embedded Binaries </br>
-Make sure the framework is added as Embed & Sign </br>
-Add “ShuftiPro.framework” in Embedded Binaries </br>
+```
+pod 'Socket.IO-Client-Swift'
+pod 'lottie-ios'
+```
+
+1. Copy “ShuftiPro.framework” into your project folder. </br>
+2. In Xcode select your project -> your project under TARGETS -> General -> Embedded Binaries </br>
+3. Make sure the framework is added as Embed & Sign </br>
+4. Add “ShuftiPro.framework” in Embedded Binaries </br>
 
 
 Add these lines to the end of Podfile
