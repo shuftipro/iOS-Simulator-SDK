@@ -9,7 +9,7 @@ pod 'Socket.IO-Client-Swift'
 pod 'lottie-ios'
 ```
 
-1. Copy “ShuftiPro.framework” into your project folder. </br>
+1. Copy “ShuftiPro.xcframework” into your project folder. </br>
 2. In Xcode select your project -> your project under TARGETS -> General -> Embedded Binaries </br>
 3. Make sure the framework is added as Embed & Sign </br>
 4. Add “ShuftiPro.framework” in Embedded Binaries </br>
