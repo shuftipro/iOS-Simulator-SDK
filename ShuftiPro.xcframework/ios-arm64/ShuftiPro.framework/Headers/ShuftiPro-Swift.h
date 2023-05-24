@@ -744,6 +744,8 @@ SWIFT_CLASS("_TtC9ShuftiPro11StepperView")
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified addressView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified consentView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified parentView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified phoneServiceView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified backgroundChecksView;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
